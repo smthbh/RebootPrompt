@@ -21,5 +21,18 @@ namespace RebootPrompt
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try {
+                System.Diagnostics.Process.Start("ShutDown", "/g");
+            }
+            catch
+            {
+
+            }
+
+            Close();
+        }
     }
 }

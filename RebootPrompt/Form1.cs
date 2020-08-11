@@ -23,6 +23,7 @@ namespace RebootPrompt
         private void button1_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
             runTimer();
         }
 
@@ -56,6 +57,7 @@ namespace RebootPrompt
             //---->want to wait for 4 hours<------
             // RESUME HERE
             this.WindowState = FormWindowState.Normal;
+            this.ShowInTaskbar = true;
 
 
             void OurTimerCallback(object source, ElapsedEventArgs e)

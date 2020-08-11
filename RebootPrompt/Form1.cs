@@ -33,7 +33,6 @@ namespace RebootPrompt
             }
             catch
             {
-
             }
 
             Close();
@@ -41,7 +40,7 @@ namespace RebootPrompt
 
         private void runTimer()
         {
-            // SET SOMETHING UP
+            // SET TIMER UP
             bool bTimer_Expired = false;
             System.Timers.Timer m_theTimer = new System.Timers.Timer();
             m_theTimer.Elapsed += new ElapsedEventHandler(OurTimerCallback);

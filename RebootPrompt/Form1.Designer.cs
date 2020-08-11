@@ -36,6 +36,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -113,12 +115,34 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(157, 111);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Remind me in: ";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Enabled = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(240, 109);
+            this.comboBox1.MaxDropDownItems = 1;
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 7;
+            this.comboBox1.Text = "4 hours";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 179);
             this.ControlBox = false;
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -150,6 +174,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

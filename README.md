@@ -7,5 +7,7 @@ Requires .NET Framework 4.5.2
 
 ToDo:<br>
 -Add command line switches to change postpone timer<br>
--Add check for another instance of prompt running before running again<br>
--Add uptime check option<br>
+-Change postpone timer combobox to allow different options<br>
+-Add check for a running instance of prompt before starting<br>
+-Add uptime check option- open prompt if uptime greater than x days<br>
+-Minimize to tray icon<br>

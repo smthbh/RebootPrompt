@@ -1,6 +1,7 @@
 # RebootPrompt
 Reboot prompt that resembles and works like the Windows 7 reboot prompt <br>
 Postpone timer is set for 4 hours<br>
+Requires .NET Framework 4.5.2
 
 <img src=https://i.imgur.com/lquTTyR.png>
 

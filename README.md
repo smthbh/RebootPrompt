@@ -1,4 +1,7 @@
 # RebootPrompt
+
+<a href="https://github.com/smthbh/RebootPrompt/releases/latest">Download</a>
+
 Reboot prompt that resembles and works like the Windows 7 reboot prompt <br>
 Postpone timer is set for 4 hours<br>
 Requires .NET Framework 4.5.2

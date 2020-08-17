@@ -107,7 +107,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gold;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::RebootPrompt.Properties.Resources.warning;
+            this.pictureBox1.Image = global::RebootPrompt.Properties.Resources.warning_bg_sm;
             this.pictureBox1.Location = new System.Drawing.Point(1, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(43, 43);

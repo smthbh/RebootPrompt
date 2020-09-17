@@ -30,7 +30,7 @@ namespace RebootPrompt
         private void button2_Click(object sender, EventArgs e)
         {
             try {
-                System.Diagnostics.Process.Start("ShutDown", "/g");
+                System.Diagnostics.Process.Start("ShutDown", "/r");
             }
             catch
             {
@@ -39,7 +39,7 @@ namespace RebootPrompt
             Close();
         }
 
-        private void runTimer()
+        private async void runTimer()
         {
             // SET TIMER UP
             bool bTimer_Expired = false;
@@ -52,7 +52,7 @@ namespace RebootPrompt
             m_theTimer.Enabled = true;
 
             //Wait for call back to set flag that the elapsed time has expired
-            while (!bTimer_Expired) Thread.Sleep(1000);
+            while (!bTimer_Expired) await Task.Delay(1000);
 
             //---->want to wait for 4 hours<------
             // RESUME HERE
